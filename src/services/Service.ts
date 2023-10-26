@@ -3,7 +3,7 @@ import axios from "axios";
 
 //configurando o axios para preparar o front para fazer as requisições
 const api = axios.create({
-  baseURL: 'https://blogdothiagofaccipieri.onrender.com/'
+  baseURL: import.meta.env.VITE_API_URL
 })
 
 
